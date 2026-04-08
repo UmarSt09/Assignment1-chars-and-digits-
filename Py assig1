@@ -2,8 +2,8 @@ s=input()
 bukva=0
 cyfra=0
 for i in s:
-    if i.isalpha:
+    if i.isalpha():
         bukva+=1
-    elif i.isdigit:
+    elif i.isdigit():
         cyfra+=1
 print(f"В строке-{bukva} буквы и {cyfra} цифры")
